@@ -14,6 +14,7 @@ def display_feed(feed):
         print('-' * 50)  # Print a separator line
 
 if __name__ == "__main__":
+    print("Please input RSS url")
     url = input()
     feed = fetch_feed(url)
     display_feed(feed)
